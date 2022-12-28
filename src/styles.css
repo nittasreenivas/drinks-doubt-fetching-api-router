@@ -1,0 +1,23 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.drinks {
+  border: 2px solid black;
+  width: 210px;
+  padding: 10px;
+  margin: 10px;
+}
+
+@media screen and (min-width: 250px) {
+  .drink-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.drink-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
